@@ -2,13 +2,9 @@ package TehtavaSarja2;
 
 public class Tapahtuma implements Comparable<Tapahtuma> {
     private long aika;
-    public enum TapahtumanTyyppi {
-        saapuminen,
-        poistuminen
-    }
-    private TapahtumanTyyppi tyyppi;
+    private TapahtumaTyyppi tyyppi;
 
-    public Tapahtuma(long t_aika, TapahtumanTyyppi t_tyyppi) {
+    public Tapahtuma(long t_aika, TapahtumaTyyppi t_tyyppi) {
         this.aika = t_aika;
         this.tyyppi = t_tyyppi;
     }

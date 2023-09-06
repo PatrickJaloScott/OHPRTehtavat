@@ -1,3 +1,5 @@
+import TehtavaSarja1.Asiakas;
+
 import java.util.Scanner;
 import java.util.LinkedList;
 public class Ohjelma2 {

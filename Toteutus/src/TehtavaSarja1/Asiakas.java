@@ -1,3 +1,5 @@
+package TehtavaSarja1;
+
 public class Asiakas {
     private int id;
     private static int nykyId = 0;
